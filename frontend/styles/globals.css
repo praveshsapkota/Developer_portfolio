@@ -1,10 +1,20 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* @import './base.css'; */
+@import 'tailwindcss/utilities';
 html,
 
 body {
+  background-color:#070816;
+  background-image: url("/backBlur.png");
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% top;
+    background-attachment: fixed;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -26,6 +36,18 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background:#070816;
+    background-image: image("../public/backBlur.png");
   }
+}
+
+.blueSVG{
+  position: absolute;
+width: 100%;
+height: 4136.58px;
+left: -808px;
+top: -93px;
+
+background: #250879;
+filter: blur(257px);
 }
