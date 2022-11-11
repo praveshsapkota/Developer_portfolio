@@ -1,4 +1,4 @@
 const skills = () => {
-    return <></>
+    return <>gfgf</>
 }
 export default skills
