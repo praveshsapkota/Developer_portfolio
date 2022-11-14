@@ -1,7 +1,7 @@
 import { Logo } from "./index.styles"
 import Image from "next/image"
 import { MdOutlineMenu } from "react-icons/md"
-
+import { ClientSideSkills } from "../component/skillsMarquee/skills"
 
 const Home = () => {
 
@@ -37,6 +37,11 @@ const Home = () => {
                 </div>
                 <div className="">
                     <Image width={400} height={400} style={{ objectFit: "fill" }} src={"/myPhoto.png"} alt="myPhoto" />
+                </div>
+            </div>
+            <div className="Skills flex flex-col">
+                <div>
+                    <ClientSideSkills />
                 </div>
             </div>
         </div>
