@@ -2,11 +2,14 @@ import { Logo } from "./index.styles"
 import Image from "next/image"
 import { MdOutlineMenu } from "react-icons/md"
 import { ClientSideSkills } from "../component/skillsMarquee/skills"
+import About from "../component/about/about"
 
 const Home = () => {
 
     return (
         <div className="flex flex-col items-center justify-between">
+
+            {/* navbar */}
             <div className="flex flex-row w-11/12 justify-between ">
                 <Logo>
                     Pravesh sapkota
@@ -21,8 +24,10 @@ const Home = () => {
                 <div className="flex self-center md:hidden text-white">
                     <MdOutlineMenu size={30} />
                 </div>
-
             </div>
+            {/* navBar */}
+
+            {/* profile photo and  role */}
             <div className="flex flex-col md:hidden mt-10 w-11/12 h-1/3  relative  justify-between items-center">
                 <div className="">
                     <Image width={400} height={400} style={{ objectFit: "fill" }} src={"/myPhoto.png"} alt="myPhoto" />
@@ -39,8 +44,11 @@ const Home = () => {
                     <Image width={400} height={400} style={{ objectFit: "fill" }} src={"/myPhoto.png"} alt="myPhoto" />
                 </div>
             </div>
-            <div className="Skills flex flex-col">
-                <div>
+            {/* profilePhoto and role */}
+
+            <About />
+            <div className="Skills flex flex-col ">
+                <div className="rounded-lg  ">
                     <ClientSideSkills />
                 </div>
             </div>
