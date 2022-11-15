@@ -59,8 +59,6 @@ opacity: 0.8;
 border-radius: 12px;
 }
 .aboutSection{
-display: flex;
-flex-direction: column;
 background: rgba(217, 217, 217, 0.15);
 mix-blend-mode: hard-light;
 opacity: 0.8;

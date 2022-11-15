@@ -45,8 +45,9 @@ const Home = () => {
                 </div>
             </div>
             {/* profilePhoto and role */}
-
-            <About />
+            <div className="mt-10 mb-10">
+                <About />
+            </div>
             <div className="Skills flex flex-col ">
                 <div className="rounded-lg  ">
                     <ClientSideSkills />
