@@ -4,7 +4,7 @@ export const Logo = styled.span`
 font-family: 'Galindo';
 font-style: normal;
 font-weight: 400;
-font-size: 2rem;
+font-size: 3rem;
 line-height: 68px;
 display: flex;
 align-items: center;

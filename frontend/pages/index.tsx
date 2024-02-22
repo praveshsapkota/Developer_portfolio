@@ -10,7 +10,7 @@ const Home = () => {
         <div className="flex flex-col items-center justify-between">
 
             {/* navbar */}
-            <div className="flex flex-row w-11/12 justify-between ">
+            <div className="flex flex-row w-11/12 justify-between mt-5">
                 <Logo>
                     Pravesh sapkota
                 </Logo>
@@ -45,10 +45,10 @@ const Home = () => {
                 </div>
             </div>
             {/* profilePhoto and role */}
-            <div className="mt-10 mb-10">
+            <div className="mt-10 mb-20 flex w-11/12">
                 <About />
             </div>
-            <div className="Skills flex flex-col ">
+            <div className="Skills flex flex-col w-11/12">
                 <div className="rounded-lg  ">
                     <ClientSideSkills />
                 </div>

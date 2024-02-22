@@ -2,67 +2,66 @@
 @tailwind components;
 @tailwind utilities; */
 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 /* @import './base.css'; */
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
 html,
-
 body {
-  background-color:#070816;
-  background-image: url("/backBlur.png");
-  background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% top;
-    background-attachment: fixed;
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background-color: #070816;
+	background-image: url("/backBlur.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100% top;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background:#070816;
-    background-image: image("../public/backBlur.png");
-  }
+	html {
+		color-scheme: dark;
+	}
+	body {
+		color: white;
+		/* background:#070816; */
+		background-image: image("../public/backBlur.png");
+	}
 }
 
-.blueSVG{
-  position: absolute;
-width: 100%;
-height: 4136.58px;
-left: -808px;
-top: -93px;
+.blueSVG {
+	position: absolute;
+	width: 100%;
+	height: 4136.58px;
+	left: -808px;
+	top: -93px;
 
-background: #250879;
-filter: blur(257px);
+	background: #250879;
+	filter: blur(257px);
 }
 
-.clientSkills{
-background: rgba(217, 217, 217, 0.15);
-mix-blend-mode: hard-light;
-opacity: 0.8;
-border-radius: 12px;
+.clientSkills {
+	background: rgba(217, 217, 217, 0.15);
+	mix-blend-mode: hard-light;
+	opacity: 0.8;
+	border-radius: 12px;
 }
-.aboutSection{
-background: rgba(217, 217, 217, 0.15);
-mix-blend-mode: hard-light;
-opacity: 0.8;
-border-radius: 28px;
-width: 97vw;
-height: fit-content;
+.aboutSection {
+	background: rgba(217, 217, 217, 0.15);
+	mix-blend-mode: hard-light;
+	opacity: 0.8;
+	border-radius: 28px;
+	width: 97vw;
+	height: fit-content;
 }

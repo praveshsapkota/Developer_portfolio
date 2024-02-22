@@ -3,9 +3,9 @@ const About = () => {
     return (
         <>
             <div className="aboutSection relative items-center">
-                <Image className="absolute top-0" alt="handGif" width={50} height={142} src="/shake-hand.gif" />
-                <div className="self-center item-center relative top-10">
-                    <span className="text-white     ">
+                <div className="self-center flex item-center pl-5 pt-3 pb-3 ">
+                    <Image className="top-3" alt="handGif" width={50} height={120} src="/shake-hand.gif" />
+                    <span className="text-white text-center font-mono">
                         Hello , I am a computer engineering graduate having experience working accross different technology’s in Web development , machine learning , IOT and overall Computer engineering domain.
                     </span>
                 </div>
